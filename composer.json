@@ -1,12 +1,12 @@
 {
-  "name": "ecomphp/tiktokshop-php",
-  "description": "Unofficial Tiktok Shop API Client in PHP",
+  "name": "webaune/tiktokshop",
+  "description": "Tiktok Shop API Client in PHP",
   "type": "library",
   "license": "Apache-2.0",
   "authors": [
     {
-      "name": "Jin",
-      "email": "j@sax.vn",
+      "name": "Webaune",
+      "email": "info@webaune.com",
       "role": "Developer"
     }
   ],

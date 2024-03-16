@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop;
+namespace Webaune\TiktokShop;
 
-use EcomPHP\TiktokShop\Errors\TiktokShopException;
+use Webaune\TiktokShop\Errors\TiktokShopException;
 
 class Webhook
 {

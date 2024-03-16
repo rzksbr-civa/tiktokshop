@@ -8,14 +8,14 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop;
+namespace Webaune\TiktokShop;
 
 use DateTimeInterface;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use EcomPHP\TiktokShop\Client as TiktokShopClient;
-use EcomPHP\TiktokShop\Errors\ResponseException;
-use EcomPHP\TiktokShop\Errors\TokenException;
+use Webaune\TiktokShop\Client as TiktokShopClient;
+use Webaune\TiktokShop\Errors\ResponseException;
+use Webaune\TiktokShop\Errors\TokenException;
 
 abstract class Resource
 {
@@ -41,7 +41,7 @@ abstract class Resource
     }
 
     /**
-     * @throws \EcomPHP\TiktokShop\Errors\TiktokShopException
+     * @throws \Webaune\TiktokShop\Errors\TiktokShopException
      */
     public function call($method, $action, $params = [])
     {

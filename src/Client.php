@@ -8,26 +8,26 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop;
+namespace Webaune\TiktokShop;
 
-use EcomPHP\TiktokShop\Resources\CustomerService;
+use Webaune\TiktokShop\Resources\CustomerService;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Client as GuzzleHttpClient;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\RequestOptions;
-use EcomPHP\TiktokShop\Errors\TiktokShopException;
-use EcomPHP\TiktokShop\Resources\Event;
-use EcomPHP\TiktokShop\Resources\Finance;
-use EcomPHP\TiktokShop\Resources\Fulfillment;
-use EcomPHP\TiktokShop\Resources\GlobalProduct;
-use EcomPHP\TiktokShop\Resources\Logistic;
-use EcomPHP\TiktokShop\Resources\Order;
-use EcomPHP\TiktokShop\Resources\Product;
-use EcomPHP\TiktokShop\Resources\Promotion;
-use EcomPHP\TiktokShop\Resources\ReturnRefund;
-use EcomPHP\TiktokShop\Resources\Seller;
-use EcomPHP\TiktokShop\Resources\Authorization;
-use EcomPHP\TiktokShop\Resources\Supplychain;
+use Webaune\TiktokShop\Errors\TiktokShopException;
+use Webaune\TiktokShop\Resources\Event;
+use Webaune\TiktokShop\Resources\Finance;
+use Webaune\TiktokShop\Resources\Fulfillment;
+use Webaune\TiktokShop\Resources\GlobalProduct;
+use Webaune\TiktokShop\Resources\Logistic;
+use Webaune\TiktokShop\Resources\Order;
+use Webaune\TiktokShop\Resources\Product;
+use Webaune\TiktokShop\Resources\Promotion;
+use Webaune\TiktokShop\Resources\ReturnRefund;
+use Webaune\TiktokShop\Resources\Seller;
+use Webaune\TiktokShop\Resources\Authorization;
+use Webaune\TiktokShop\Resources\Supplychain;
 use Psr\Http\Message\RequestInterface;
 
 /**
@@ -91,7 +91,7 @@ class Client
 
     public function useSandboxMode()
     {
-        trigger_deprecation('ecomphp/tiktokshop-php', '2.0.0', 'useSandboxMode() will be deprecated: Since API version 202309, Tiktokshop API sandbox is no longer worked, please use production environment.');
+        trigger_deprecation('webaune/tiktokshop', '2.0.0', 'useSandboxMode() will be deprecated: Since API version 202309, Tiktokshop API sandbox is no longer worked, please use production environment.');
     }
 
     public function getAppKey()

@@ -8,9 +8,9 @@
  * file that was distributed with this source code.
  */
 
-namespace EcomPHP\TiktokShop\Resources;
+namespace Webaune\TiktokShop\Resources;
 
-use EcomPHP\TiktokShop\Resource;
+use Webaune\TiktokShop\Resource;
 
 class Logistic extends Resource
 {
